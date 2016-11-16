@@ -38,3 +38,22 @@ else if ( i% 3==0){
 else{ console.log (i)
 }
 }
+
+
+
+//The previous chapter introduced the standard function Math.min that returns its smallest argument.
+//We can do that ourselves now. 
+//Write a function min that takes two arguments and returns their minimum.
+// Your code here.
+
+var min = function (numb1,numb2){
+	return Math.min(numb1,numb2)
+};
+
+console.log (min(2,4));
+
+console.log(min(0, 10));
+// → 0
+console.log(min(0, -10));
+// → -10
+
